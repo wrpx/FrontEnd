@@ -1,0 +1,27 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions":{
+    "strict": true,
+    "jsx": "react-native",
+    "lib": ["es2017"],
+    "types": ["react-native"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "index.ts",
+    "App.tsx",
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js"
+  ]
+} 
